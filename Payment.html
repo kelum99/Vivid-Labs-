@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title> Vivid Labs | Payment  </title>
+    <link rel="stylesheet" type="text/css" media="screen" href="Styles/Inukshi.style.css"/>
+    <script src="Javascript/inukshi.js"></script>
+    <style>
+        body{
+             background-image: url("Images/background.jpg");
+}
+    </style>
+</head>
+<body>
+
+    <div class="main_container">
+        <div class="main">
+ 
+                  <img src="Images/logo.png"  class="logo">            
+ 
+             <div class="nav">
+ 
+                <a href="home.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="event.html">Events</a>
+                <a href="package list 01.html">Packages</a>
+                <a href="AboutUs.html">About Us</a>
+                <a href="contactus.html">Contact Us</a>
+                
+             </div>
+             <div class="loging">
+ 
+                 <ul>
+                   <li> <a class="btn1" id="btnlog" href="login.html">Login</a> </li>
+                   <li> <a class="btn1" href="Registation.html">Register</a>  </li>
+                 </ul>
+             </div>
+             <a class="userbtn" href="userprofile.php"> <img src="Images/avatar.png" class="avatar" > </a> 
+        </div>
+    <!--Page name-->
+    <div class="page_title">Payment Method </div>
+
+    <!--Page sub name-->
+    <div class="form">
+    
+    <div class="subtitle"> Select Payment Method</div>
+    <div class="center1">
+    <img  onclick="displayform1()" src="Images/visa.png" class="icon"  >
+    <img  onclick="displayform2()"  src="Images/mastercard.png" class="icon" >
+    <img  onclick="displayform3()"  src="Images/paypal.png" class="icon" > 
+   
+    </div>
+    <form  name="form1" action="PHP/payment.php" method="POST" id="asd" style="display:none">
+        Name On Visa Card:</br>
+        <input type="text" name="Cardname" required> <br></br>
+
+        Card number:</br>
+        <input type="number" name="Cardnumber"   required> <br></br>
+        Expire Date :</br>
+        <input type="date" name="date" value="date" required> <br></br> 
+        CVV:</br>
+        <input type="text" name="CVV"  size="3" required> <br></br>
+        <input type="checkbox" name="A" value="3"></input>I agree the Terms & Conditions  &  privacy terms </input><br></br>
+        <input type="submit" value="SUBMIT" id="confirmbn" >
+    </form>
+
+
+    <form name="form2" action="PHP/payment1.php" method="POST"  id="asd3" style="display:none">
+        Buyer Name:</br>
+        <input type="text" name="BuyerName" required> <br></br>
+        Email:</br>
+        <input type="text" name="BuyerEmail" required> <br></br>
+        
+        Shipping address:</br>
+        <input type="text" name="address"  required> <br></br>
+        <input type="checkbox" name="A" value="3"></input>I agree the Terms & Conditions  &  privacy terms</input><br></br>
+       <input type="submit" value="SUBMIT" id="confirmbn" >
+    </form>
+
+    <form name="form1" action="PHP/payment.php" method="POST" id="asd2" style="display:none">
+        Name On Master Card:<br>
+        <input type="text" name="Cardname" required> <br></br>
+        Card number:</br>
+        <input type="number" name="Cardnumber"  required> <br></br>
+        Expire Date :</br>
+        <input type="date" name="date" value="date" required> <br></br>
+        CVV:</br>
+        <input type="text" name="CVV" value="" required> <br></br>
+        <input type="checkbox" name="A" value="3">I agree the Terms & Conditions  &  privacy terms<br></br>
+        <input type = "submit" id="confirmbn" value="SUBMIT"> </input>
+    </form>
+
+
+
+
+
+    </div>
+    <div class="end">
+        <footer>
+            <div class="content2">
+                <img src="" alt="" class="vivid">
+                <h3>Vivid Labs</h3>
+            </div>
+            <div class="content3">
+                    <span>©2020. All Rights Reserved. Vivid Labs®</span>     
+                </div>
+            <div class="content4">
+                <a href="https://www.facebook.com"> <img src="Images/facebook 3.png"  class="icons2"> </a>
+                <a href="https://www.instagram.com"> <img src="Images/instagram 3.png"  class="icons2"> </a>
+                <a href="https://www.twitter.com">  <img src="Images/twitter 2.png"  class="icons2"> </a>
+                <a href="https://www.linkedin.com">  <img src="Images/linkedin.png"  class="icons2"> </a>
+            </div>
+        </footer>
+
+</body>
+</html>
+

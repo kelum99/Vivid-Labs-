@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Concert+One&family=Courgette&family=Lobster+Two:wght@700&family=Mitr:wght@500&family=Oxygen&family=Roboto+Slab:wght@700&family=Rubik:ital@1&family=Work+Sans:ital,wght@1,300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url('../Images/bg8.jpg');
+    background-repeat: no-repeat; 
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, rgba(0, 0, 0,.8), rgb(0, 0, 0));      
+}
+.logo{
+    height: 100px;
+    width: 130px;
+    margin-left: 7%;
+}
+.main h2:hover{
+    color: rgb(7, 175, 204);
+    transition-delay: 8ms;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20%;  
+}
+.nav a{
+    padding: 35px 30px;
+    font-family: 'Oxygen', sans-serif; 
+    font-size: 17px;
+    font-weight: 530;
+    color: white;
+    text-decoration: none;
+    transition: .3s linear;
+    
+}
+
+.nav a:hover{
+    color: rgb(53, 175, 169);   
+    transform: scale(1.1);
+    transition-delay: 5ms;
+}
+
+.btn1{  
+    padding: 8px 12px;
+    font-size: 18px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    border: 2px solid snow;
+    border-radius: 13px;
+    cursor: pointer; 
+}
+
+.loging ul{
+    display: flex;
+    list-style: none;
+    padding: 20px 25px;
+     
+  }
+.loging li{
+    transition: .3s linear;
+}
+
+.loging li:hover{
+    color: rgb(53, 175, 169);   
+    transform: scale(1.1);
+    transition-delay: 5ms;
+}
+
+#btnlog{
+    margin-right: 30px;
+}
+
+.avatar{
+    height: 50px;
+    width: 50px;
+    margin: 23px 25px 20px 12px;
+}
+
+
+
+
+  
+  .page_title{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:1.2%;
+    padding-bottom: 5px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  
+  footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid silver;
+    margin: 10px 10%;
+
+}
+.vivid{
+  height: 70px;
+  width: 75px;
+}
+.content2{
+    margin-left: 20px;
+}
+.content4 a{
+    text-decoration: none;    
+}
+.content4{
+    padding-top: 2%;
+    margin-right: 20px;
+}
+
+.icons2 {
+    height: 25px;
+    width: 25px;
+    padding: 7px;
+    
+}
+.content3{
+    text-align: center;
+    color: silver;
+    padding-top: 3%;
+
+    
+}
+
+  .form input{
+    outline: none;
+    overflow: hidden;
+    background: transparent;
+    border: 2px solid gray;
+    margin-bottom: 5px;
+    color: white;
+  }
+
+  .form {
+    margin: auto;
+    width: 35%;
+    background: rgba(8, 15, 7, 0.5);
+    padding: 10px;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif; 
+    color: white;
+}
+
+.title{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top:1.2%;
+  padding-bottom: 5px;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+.form li {
+  list-style: none; 
+  margin: 13px; 
+}
+
+#address{
+  height: 80px;
+  width: 200px;
+  padding: none;
+}
+
+#FName{
+  width:250px;
+  height:20px;
+}
+
+#Lname{
+  width:250px;
+  height:20px;
+}
+#pwd{
+  width:200px;
+  height:20px;
+}
+#cmdpwd{
+width:200px;
+height:20px;
+}
+
+
+
+.overlay1{
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+}
+
+.title2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.para{
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-top: 1%;
+  padding-bottom: 1.5%;
+}
+#submitbn{
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn{
+  margin: 15px;
+}
+
+.chkbox{
+  margin-left: 10px;
+}
+
+.details li{
+  display:inline-block;
+  list-style: none;
+  padding: 20px;
+}
+
+.details{
+  margin:0 40px;
+  background: snow;
+  border-radius: 13px;
+}

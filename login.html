@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Vivid Labs | Home </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="Styles/styles2.css" />
+    <script src="Javascript/jslogin.js"></script>
+</head>
+<body>
+    <div class="main_container">
+        
+       <div class="main">
+
+                 <img src="Images/logo.png"  class="logo">
+                
+            
+            <div class="nav">
+                <a href="home.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="event.html">Events</a>
+                <a href="package list 01.html">Packages</a>
+                <a href="AboutUs.html">About Us</a>
+                <a href="contactus.html">Contact Us</a>
+                
+            </div>
+            <div class="loging">
+                <ul>
+                  <li> <a class="btn1" id="btnlog" href="login.html">Login</a> </li>
+                  <li> <a class="btn1" href="Registation.html">Register</a>  </li>
+                </ul>
+            </div>
+            <a class="userbtn" href="userprofile.php"> <img src="Images/avatar.png" class="avatar" > </a> 
+       </div>
+    
+       <form name="loginform" action="login.php" method="POST">
+       <div class="login-container">
+            <h2>Login</h2>
+            
+        <div class="textbox">
+                <img  src="Images/user.png"  class="icon1">
+               <input type="text" name="username" class="text1" id="uname" placeholder="Username" autocomplete="off" required> 
+            </div>
+
+            <div class="textbox">
+               <img src="Images/lock.png" class="icon1">
+               <input type="password" name="pswrd" class="text1" id="psw" placeholder="Password" pattern="(?=.*\d).(?=.*[a-z]).(?=*.[A-Z]).{8,})" title="Must Contain at least 8 or More Characters" required> 
+            </div>
+             
+
+        <div class="fp">
+            <input type="button" value="Froget Password?" name="fp_btn" onclick="showform()" >
+        </div>
+        
+        <div class="btn2">
+            <input type="submit" value="Login" name="submit" onclick="viewalert()" >
+        </div>
+
+         <div class="signin">
+           <p>Not Registered? <a href="signUp.html">Create An Account</a> </p>
+        </div>
+
+            </div>
+        </form>
+
+        <form class="frogot_pw"  id="fpform" style="display:none" action="login.php"> 
+            <div class="fp_container">
+                <h2>Fill This Form</h2>
+            <input type="text" name="username1" class="text2" id="uname1" placeholder="Username" autocomplete="off" required> 
+            <input type="email" name="email1" class="text2"  placeholder="Your E-mail" autocomplete="off" required> 
+            <input type="number" name="pno" class="text2"  placeholder="Phone number" autocomplete="off" required> 
+            <button type="submit" class="fp_sub" onclick = "viewalert2()">Submit</button>
+
+        </div>
+        </form>
+
+
+        <div class="end">
+            <footer>
+                
+                <div class="content2">
+                    <img src="Images/logo.png"  class="vivid">
+                </div>
+
+                <div class="content3">
+                        <span>©2020. All Rights Reserved. Vivid Labs®</span>     
+                    </div>
+
+                <div class="content4">
+                    <a href="https://www.facebook.com"> <img src="Images/facebook 3.png"  class="icons2"> </a>
+                    <a href="https://www.instagram.com"> <img src="Images/instagram 3.png"  class="icons2"> </a>
+                    <a href="https://www.twitter.com">  <img src="Images/twitter 2.png"  class="icons2"> </a>
+                    <a href="https://www.linkedin.com">  <img src="Images/linkedin.png"  class="icons2"> </a>
+                </div>
+            </footer>
+    </div>
+           
+       </div>

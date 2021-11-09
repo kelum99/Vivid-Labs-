@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Vivid Labs | Wedding Packages </title>
+    <link rel="icon" href="Images/camera.png">
+    <link rel="stylesheet" type="text/css"  href="Styles/style.thanura.css"/>
+    <script src="Javascript/script.thanura.js"></script>
+    <style>
+        body{
+             background-image: url("Images/homebg.jpg");
+             background-attachment: fixed;
+}
+    </style>
+</head>
+
+<script>
+  function displayform1(bla) {
+  
+  document.getElementById("package1").style.display = "none";
+  document.getElementById("package2").style.display = "none";
+  document.getElementById("package3").style.display = "none";
+
+ }
+</script>
+<body>
+  <div class="main_container">
+        
+    <div class="main">
+
+      <img src="Images/logo.png " width="100px" height="100px" >
+      
+         
+         <div class="nav" >
+          <a href="home.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="event.html">Events</a>
+          <a href="package list 01.html">Packages</a>
+          <a href="AboutUs.html">About Us</a>
+          <a href="contactus.html">Contact Us</a>
+          
+         </div>
+
+         <div class="loging">
+             <ul>
+               <li> <a class="btn1" id="btnlog" href="login.html">Login</a> </li>
+               <li> <a class="btn1" href="Registation.html">Register</a>  </li>
+             </ul>
+         </div>
+         <a class="userbtn" href="userprofile.php"> <img src="Images/avatar.png" class="avatar" > </a> 
+    </div>
+
+<!-- Page Title -->
+
+       <div class="page_title" ><b>Wedding</b> Packages</div>
+
+<!-- Packages Type -->
+
+    <div class="allp2" style="width: 100%;">    
+      <div class="allp">
+        <div  style="display:block;">
+        <div id="package1" class="pshape1" >
+          
+          <div class="ptitle">CLASSIC</div>
+          <div class="ptitle">_________</div>
+
+
+          <td><ul>            
+              <li class="ppr">Pre Shoot Coverage</li>
+              <li class="ppr">Wedding Coverage</li>
+              <li class="ppr">Homecoming Coverage</li>
+          </ul></td>
+          <div class="ptitle">_________</div>
+
+          <div class="ppr2"><br><b>FINE ART ALBUMS</b></div>
+          <td><ul>            
+            <li class="ppr"><b>60page</b> 12 x 34 Fine Art Wedding Album</li>
+          </ul></td>
+
+        <div class="ptitle">_________</div>
+
+          <div class="ppr2"><br><b>RETOUCHED IMAGES</b></div>
+          <div class="ppr2"><br>500 Professionally Retouched High
+            Resolution images covering the main
+            photo session & reception All unedited
+            images on Digital media</div>
+        
+            <div class="pprice"><br>Rs.80 000.00</div>
+            <button id="pb1" style="display: block;" class="pbutton" onclick="displayp()">Book Now</button>
+        </div></div>
+
+
+        <div class="package2">
+        <div  id="package2" class="pshape2"><div class="ptitle">PREMIUM</div>
+        <div class="ptitle">_________</div>
+
+
+          <td><ul>            
+              <li class="ppr">Pre Shoot Coverage</li>
+              <li class="ppr">Wedding Coverage</li>
+              <li class="ppr">Homecoming Coverage</li>
+          </ul></td>
+          <div class="ptitle">_________</div>
+
+          <div class="ppr2"><br><b>FINE ART ALBUMS</b></div>
+          <td><ul>            
+            <li class="ppr"><b>60page</b> 12 x 34 Fine Art Wedding Album</li>
+            <li class="ppr">30page 8 x 24 pre shoot Album</li>
+            <li class="ppr">30page 8 x 24 pre shoot Album</li>
+          </ul></td>
+
+        <div class="ptitle">_________</div>
+
+          <div class="ppr2"><br><b>RETOUCHED IMAGES</b></div>
+          <div class="ppr2"><br>500 Professionally Retouched High
+            Resolution images covering the main
+            photo session & reception All unedited
+            images on Digital media</div>
+        
+            <div class="pprice"><br>Rs.150 000.00</div>
+            <button id="pb2" style="display: block;" class="pbutton" onclick="displayp2()">Book Now</button>
+        </div></div>
+
+        <div class="package3">
+          <div  id="package3" class="pshape1"><div class="ptitle">STANDARD</div>
+          <div class="ptitle">_________</div>
+
+
+          <td><ul>            
+              <li class="ppr">Pre Shoot Coverage</li>
+              <li class="ppr">Wedding Coverage</li>
+              <li class="ppr">Homecoming Coverage</li>
+          </ul></td>
+          <div class="ptitle">_________</div>
+
+          <div class="ppr2"><br><b>FINE ART ALBUMS</b></div>
+          <td><ul>            
+            <li class="ppr"><b>60page</b> 12 x 34 Fine Art Wedding Album</li>
+            <li class="ppr">30page 8 x 24 pre shoot Album </li>
+          </ul></td>
+
+        <div class="ptitle">_________</div>
+
+          <div class="ppr2"><br><b>RETOUCHED IMAGES</b></div>
+          <div class="ppr2"><br>500 Professionally Retouched High
+            Resolution images </div>
+        
+            <div class="pprice"><br>Rs.120 000.00</div>
+            <button id="pb3" style="display: block;" class="pbutton" onclick="displayp3()">Book Now</button>
+      </div>
+      </div>
+      <div id="packag1" style="display: none;">
+      <form class="formcs"id="forma1" action="" method="POST">
+        <div class="pack">
+            <h2 id="foname">Event Details</h2>
+         
+            <input type="text" id="ename" name="ename4" placeholder="Event Name" required><br><br>
+
+            <input type="text" id="nic" name="nic4" placeholder="Your NIC" required pattern="[x-v0-9]{10}" ><br><br>
+
+            <input type="text" id="location" name="location4" placeholder="Location" required><br><br>
+
+            <input type="date"  id="evtime2" name="evtime4" placeholder=""required ><br><br>
+
+            <div class="formnote">
+              <b>After you send an event reservation request<br>
+              we will confirm it and notify you by email.<br><br></b>
+            </div>
+
+          <input id="fbut" type="submit" value="Submit">
+          
+      </form></div>
+
+
+    </div>      
+    </div>
+
+<!-- Page Title -->
+
+<div class="page_title"><b>Weddings</b> by VIVID Labs</div>
+
+ <!-- Event lists -->
+
+ <div class="container5" >
+  <a id="llink1" href="event.html">
+    <img style="width: 100%;" class="imground" id="revent1" src="Images/Events/01.3.jpg" alt="Avatar">
+  <div id="listtxt1" class="center5">Giulia & David</div>
+  </a>
+</div>
+
+ <div class="row">
+  <div class="column">
+    <div class="recentcat">
+      <a id="elinkc1" href="">
+        <img id="catImage" src="Images/Events/Wedding/2.3.jpg" alt="Avatar" class="image" style="width:100%"></a>
+      <div class="overlay2">
+          <div class="text">
+              <div id="coltext1" class="bannertext">Bella & Andrew</div>
+              <div class="bannertext2">Weddings by ViVid Labs</div>                
+          </div>
+      </div>
+    </div>
+  
+  </div>
+  <div class="column">
+    <div class="recentcat">
+      <a id="elinkc2" href="">
+        <img id="catImage2" src="Images/Events//Wedding/2.1.jpg" alt="Avatar" class="image" style="width:100%"></a>
+      <div class="overlay2">
+          <div class="text">
+            <div id="coltext2" class="bannertext">Kylie & Shawn</div>
+            <div class="bannertext2">Weddings by ViVid Labs</div>                 
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="recentcat">
+      <a id="elinkc3" href="">
+        <img id="catImage3" src="Images/Events//Wedding/2.2.jpg" alt="Avatar" class="image" style="width:100%"></a>
+      <div class="overlay2">
+          <div class="text">
+              <div id="coltext3" class="bannertext">Bella & Andrew</div>
+              <div class="bannertext2">Weddings by ViVid Labs</div>                
+          </div>
+      </div>
+    </div>
+  </div>  
+    <div class="column">
+      <div class="recentcat">
+        <a id="elinkc5"  href="">
+          <img id="catImage5" src="Images/Events//Wedding/2.4.jpg" alt="Avatar" class="image" style="width:100%"></a>
+        <div class="overlay2">
+            <div class="text">
+                <div id="coltext5" class="bannertext">liza & Jake</div>
+                <div class="bannertext2">Weddings by ViVid Labs</div>                  
+            </div>
+        </div>
+      </div>
+    </div> 
+  </div>   
+</div>
+
+
+
+<div class="footer">
+  <a href="event.html">
+  <img src="images/logo2.png" width="75px"></a>
+  <p>© 2020 Vivid Labs. All Rights Reserved</p>
+  
+</div>
+
+
+</body>
+</html>
+
